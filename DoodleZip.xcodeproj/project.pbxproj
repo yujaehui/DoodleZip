@@ -16,6 +16,8 @@
 		095AFBB92D65A7C60078FD15 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 095AFBB82D65A7C60078FD15 /* RealmSwift */; };
 		095AFBBF2D65A94A0078FD15 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFBBE2D65A94A0078FD15 /* Note.swift */; };
 		095AFBC52D65A9F80078FD15 /* RealmClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFBC42D65A9F80078FD15 /* RealmClient.swift */; };
+		095AFBC82D65AA7C0078FD15 /* NoteFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFBC72D65AA7C0078FD15 /* NoteFeature.swift */; };
+		095AFBCB2D65AAA30078FD15 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFBCA2D65AAA30078FD15 /* Color+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		095AFB2F2D5C95F50078FD15 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		095AFBBE2D65A94A0078FD15 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		095AFBC42D65A9F80078FD15 /* RealmClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmClient.swift; sourceTree = "<group>"; };
+		095AFBC72D65AA7C0078FD15 /* NoteFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteFeature.swift; sourceTree = "<group>"; };
+		095AFBCA2D65AAA30078FD15 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 		095AFB272D5C95F30078FD15 /* DoodleZip */ = {
 			isa = PBXGroup;
 			children = (
+				095AFBC92D65AA8E0078FD15 /* Extension */,
+				095AFBC62D65AA740078FD15 /* Feature */,
 				095AFBC32D65A9EA0078FD15 /* Realm */,
 				095AFBBD2D65A93D0078FD15 /* Model */,
 				095AFB282D5C95F30078FD15 /* DoodleZipApp.swift */,
@@ -93,6 +99,22 @@
 				095AFBC42D65A9F80078FD15 /* RealmClient.swift */,
 			);
 			path = Realm;
+			sourceTree = "<group>";
+		};
+		095AFBC62D65AA740078FD15 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				095AFBC72D65AA7C0078FD15 /* NoteFeature.swift */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		095AFBC92D65AA8E0078FD15 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				095AFBCA2D65AAA30078FD15 /* Color+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,9 +197,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				095AFBC52D65A9F80078FD15 /* RealmClient.swift in Sources */,
+				095AFBCB2D65AAA30078FD15 /* Color+Extension.swift in Sources */,
 				095AFB2B2D5C95F30078FD15 /* ContentView.swift in Sources */,
 				095AFB292D5C95F30078FD15 /* DoodleZipApp.swift in Sources */,
 				095AFBBF2D65A94A0078FD15 /* Note.swift in Sources */,
+				095AFBC82D65AA7C0078FD15 /* NoteFeature.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
