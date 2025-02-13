@@ -6,12 +6,18 @@
 //
 
 import SwiftUI
+import ComposableArchitecture
 
 @main
-struct DoodleZipApp: App {
+struct DoodleZipTestApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView(
+                store: Store(
+                    initialState: NoteFeature.State(),
+                    reducer: { NoteFeature() }
+                )
+            )
         }
     }
 }
