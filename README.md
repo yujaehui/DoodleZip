@@ -91,4 +91,8 @@ DoodleZip
  ┃ ┗ HomeView.swift
  ┣ ContentView.swift
  ┗ DoodleZipApp.swift
+
+DoodleZipTests
+ ┣ DoodleZipTests.swift
+ ┗ NoteFeatureTests.swift
 ```
